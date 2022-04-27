@@ -10,7 +10,7 @@ locals {
 }
 
 
-resource "aws_db_instance1" "default" {
+resource "aws_db_instance" "default1" {
 allocated_storage = 20
 identifier = "testinstance2"
 storage_type = "gp2"
