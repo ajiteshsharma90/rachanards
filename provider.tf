@@ -3,5 +3,5 @@ provider "aws" {
     secret_key = ${{DEV_AWS_SECRET_ACCESS_KEY}}
     #access_key = local.aws_creds.AWS_ACCESS_KEY
     #secret_key = local.aws_creds.AWS_SECRET_KEY
-    region = "us-west-2"
+    region = var.aws_region
 }
